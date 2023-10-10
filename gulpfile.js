@@ -31,5 +31,3 @@ gulp.task('watch', function() {
 })
 
 gulp.task('default', gulp.parallel('watch', 'server', 'styles'));
-
-console.log('Test');
